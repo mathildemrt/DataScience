@@ -3,7 +3,6 @@
 This is the first in a three-week introduction to Apache Spark series of
 lectures and lab exercises.
 
----
 
 ## Getting started
 
@@ -100,7 +99,6 @@ $ jupyter notebook list
 Currently running servers:
 http://localhost:8889/?token=1234 :: /home/<username>
 ```
----
 
 ## Python refresher
 
@@ -116,7 +114,6 @@ minutes. In any case, it's best to get some practice now and this notebook
 will also serve as a reference for you as you work through the rest of the
 lab.
 
-
 ## Intro to Spark
 
 The notebook [`spark-intro.ipynb`](notebooks/2_spark-intro.ipynb) will guide you through some very basic Apache Spark concepts. This week and part of the next, we will be sticking to the "lower-level" RDD (Resilient Distributed Dataset) part of the Spark API, which will give you some insight into the way that distributed computation works. Next week we will also introduce the DataFrame API, which is the more user- friendly "higher level" interface to Spark that will feel somewhat like Pandas dataframes that you've worked with earlier in the course.
@@ -130,7 +127,6 @@ The third notebook, [`gutenberg.ipynb`](notebooks/3_gutenberg.ipynb) will use ba
 
 The final notebook, [`language-classification.ipynb`](notebooks/4_language-classification.ipynb) will guide you through the basics of Spark’s DataFrames.
 
----
 ## Useful links
 
 At the very least, scan through these so you know what is available,
